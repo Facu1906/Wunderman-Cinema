@@ -1,0 +1,611 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+  font-family: "Lato", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#1a1b1b;
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  color: #fff;
+}
+
+
+#johnWick-image {
+  width: 40%;
+  height: 40%;
+  align-content: center;
+  
+}
+
+#johnWick-destacada {
+  width: 130%;
+  height: 130%;
+}
+
+#sociedad-nieve-destacada {
+  width: 130%;
+  height: 130%;
+}
+
+#oppenheimer-destacada {
+  width: 130%;
+  height: 130%;
+}
+
+
+
+
+#destacada {
+  background-image: url('./assets/Wick.jpeg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+/* position: absolute; */
+  /*Flex*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
+  display: grid;
+  grid-template-columns: 300px 700px;
+  
+}
+
+#destacada section {
+  margin-top: -100px;
+}
+
+#destacada h1 {
+  background-color:#d9e2f1;
+  text-align: left;
+  margin-left: 90px;
+  padding: 40px 30px;
+}
+
+#destacada2 {
+  background-image: url('./assets/Sociedad-Nieve-fondo.jpeg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+/* position: absolute; */
+  /*Flex*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
+  display: grid;
+  grid-template-columns: 300px 700px;
+  
+}
+
+#destacada2 section {
+  margin-top: -100px;
+}
+
+#destacada2 h1 {
+  background-color:#d9e2f1;
+  text-align: left;
+  margin-left: 90px;
+  padding: 40px 30px;
+}
+
+#destacada3 {
+  background-image: url('./assets/Oppenheimer-fondo.jpeg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+/* position: absolute; */
+  /*Flex*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
+  display: grid;
+  grid-template-columns: 300px 700px;
+  
+}
+
+#destacada3 section {
+  margin-top: -100px;
+}
+
+#destacada3 h1 {
+  background-color:#d9e2f1;
+  text-align: left;
+  margin-left: 90px;
+  padding: 40px 30px;
+}
+
+#main-header h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  color: #84b0fc;
+}
+
+#welcome-header {
+  height: 100vh;
+}
+
+
+#welcome-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  top: 0;
+  position: absolute;
+ left: 2%;
+}
+
+
+#welcome-header-content h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+
+#welcome-header-content #cartelera {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  margin-top: -45px;
+}
+
+#welcome-header2 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  top: 0;
+}
+
+#welcome-header-content2 h1 {
+  left: 10px;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+  margin-left: 50px;
+}
+
+#buttons {
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+}
+
+
+#cta-link2 {
+  padding: 0.5rem 2.5rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+}
+#cta-link-des {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cta-link-others {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#cta-link1-others {
+  padding: 1rem 1rem;
+  background-color: #f1f0f7;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  margin-left: -650px;
+}
+
+#cta-link2-others {
+  padding: 1rem 1rem;
+  background-color: #f1f0f7;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  margin-right: -350px;
+}
+
+#arrow-right {
+  width: 50px;
+  height: 50px;
+}
+
+#arrow-left {
+  width: 50px;
+  height: 50px;
+}
+
+#cta-link1-others:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+#cta-link2-others:hover {
+  background-color: rgb(255, 255, 255);
+}
+  
+#cta-link1-des{
+  padding: 2rem 1rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  margin-left: 250px;
+}
+
+#cta-link2-des{
+  padding: 2rem 1rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  margin-right: 100px;
+}
+
+#cta-link1-des:hover {
+  background-color: #0f86ef;
+}
+
+#cta-link2-des:hover {
+  background-color: #0f86ef;
+}
+
+#cta-link2:hover {
+  background-color: #0f86ef;
+}
+
+.youtube-video {
+  width: 100%;
+  height: 900px; /* Adjust the height as needed */
+}
+
+#cta-link3 {
+  display: inline-block;
+  padding: 0.3rem 1.3rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 180px;
+}
+
+#cta-link3:hover {
+  background-color: #0f86ef;
+}
+
+#titlewelcome {
+  text-decoration: none;
+}
+
+#welcome-header-content #cartelera:hover {
+  background-color: #0f86ef;
+}
+
+#cta-link {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  background-color: #0f61ef;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-content: center;
+  margin-top: -45px;
+}
+
+#cta-link:hover {
+  background-color: #0f86ef;
+}
+
+#welcome-content{
+  margin: 0;
+background-image: url('./assets/CinemaMovie.jpg');
+background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 100%;
+position: absolute;
+/* position: absolute; */
+  /*Flex*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-rows: 400px 400px;
+
+}
+
+#welcome-content section {
+  margin: -100px;
+  margin-top: -50px;
+}
+
+#welcome-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#welcome-content h2 {
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+#new-information label {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+  color: #414956;
+}
+
+#new-information input,
+#new-information textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #d9e2f1;
+  background-color: #fff;
+  color: #414956;
+  font-size: 0.8rem;
+  font-family: "Quicksand", sans-serif;
+}
+
+
+.new-information-actions button,
+.button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #0f61ef;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.new-information-actions button:hover,
+.button:hover {
+  background-color: #0f3cef;
+}
+
+.modal {
+  top: 10%;
+  border-radius: 6px;
+  padding: 1.5rem;
+  width: 30rem;
+  max-width: 90%;
+  z-index: 10;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.new-information-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.new-information-actions button:first-of-type {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #314a77;
+  border: none;
+  box-shadow: none;
+}
+
+.new-information-actions button:first-of-type:hover {
+  background-color: transparent;
+  color: #0f3cef;
+}
+
+#buttons1{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color:#414956;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+#buttons2{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #0f61ef;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+#buttons3{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color: #1dcd3a;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+#buttons4 {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  background-color:#414956;
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+#moviecomponent {
+  background-image: url('./assets/CinemaMovie.jpg');
+  background-position: center;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+
+#felicitaciones section{
+  background-color:#1a1b1b;
+}
+
+#felicitaciones h2{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 2.5rem;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+#felicitaciones h1 {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #7b7a7a;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+#block {
+  margin: 100px;
+  align-content: center;
+}
+
+#block img {
+  background-position: center;
+  background-size: auto;
+  width: 15%;
+  height: 15%;
+  position: fixed;
+  margin-left: 720px;
+}
+
+#h3 {
+  color: #7c9acf;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 220px;
+}
+
+#h32 {
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  text-align: center;
+}
